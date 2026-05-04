@@ -8,7 +8,8 @@ module.exports = {
       config: {
         repository: {
           owner: 'Blackfire529',
-          name: 'RSVP_Electron'
+          name: 'RSVP_Electron',
+          authToken: process.env.GITHUB_TOKEN,
         },
         prerelease: false,
         draft: true
